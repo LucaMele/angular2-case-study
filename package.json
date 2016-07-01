@@ -1,0 +1,62 @@
+{
+  "name": "angular2-case-study",
+  "version": "1.0.0",
+  "description": "Demo case study for angular 2",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucaMele/angular2-case-study.git"
+  },
+  "keywords": [
+    "angular2"
+  ],
+  "author": "lucamele1@hotmail.com",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common":  "2.0.0-rc.4",
+    "@angular/compiler":  "2.0.0-rc.4",
+    "@angular/core":  "2.0.0-rc.4",
+    "@angular/forms": "0.2.0",
+    "@angular/http":  "2.0.0-rc.4",
+    "@angular/platform-browser":  "2.0.0-rc.4",
+    "@angular/platform-browser-dynamic":  "2.0.0-rc.4",
+    "@angular/router":  "3.0.0-beta.2",
+    "@angular/router-deprecated":  "2.0.0-rc.2",
+    "@angular/upgrade":  "2.0.0-rc.4",
+
+    "systemjs": "0.19.27",
+    "core-js": "^2.4.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "^0.6.12",
+
+    "angular2-in-memory-web-api": "0.0.14",
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.0.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-coverage": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "lite-server": "^2.2.0",
+    "remap-istanbul": "^0.6.4",
+    "systemjs": "^0.19.27",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  },
+  "bugs": {
+    "url": "https://github.com/LucaMele/angular2-case-study/issues"
+  },
+  "homepage": "https://github.com/LucaMele/angular2-case-study#readme"
+}
